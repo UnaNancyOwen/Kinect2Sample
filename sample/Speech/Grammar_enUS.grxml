@@ -1,0 +1,32 @@
+﻿<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>RED</tag>
+        <one-of>
+          <item> Red </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>GREEN</tag>
+        <one-of>
+          <item> Green </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>BLUE</tag>
+        <one-of>
+          <item> Blue </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>EXIT</tag>
+        <one-of>
+          <item> Exit </item>
+          <item> Quit </item>
+          <item> Stop </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

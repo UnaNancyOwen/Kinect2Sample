@@ -1,0 +1,34 @@
+﻿<grammar version="1.0" xml:lang="ja-JP" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>RED</tag>
+        <one-of>
+          <item> 赤 </item>
+          <item> 赤色 </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>GREEN</tag>
+        <one-of>
+          <item> 緑 </item>
+          <item> 緑色 </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>BLUE</tag>
+        <one-of>
+          <item> 青 </item>
+          <item> 青色 </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>EXIT</tag>
+        <one-of>
+          <item> 終わり </item>
+          <item> 終了 </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
